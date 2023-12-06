@@ -1,77 +1,36 @@
-/* 基本的なリセットとフォントの設定 */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-/* ヘッダーのスタイリング */
-header {
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: #f4f4f4;
-    padding: 1rem 0;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-header h1 {
-    margin: 0;
-}
-
-/* ナビゲーションバーのスタイリング */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #f4f4f4;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #ddd;
-}
-
-/* セクションのスタイリング */
-section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 5px;
-}
-
-/* フッターのスタイリング */
-footer {
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: #f4f4f4;
-    text-align: center;
-    padding: 1rem 0;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
-}
-
-footer p {
-    margin: 0;
-}
-
-/* メディアクエリー */
-@media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>kyosukemine</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#projects">プロジェクト</a></li>
+                <li><a href="#contact">連絡先</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>自己紹介</h2>
+        <p>あなたの経歴やスキルについての説明。</p>
+    </section>
+    <section id="projects">
+        <h2>プロジェクト</h2>
+        <p>ここにあなたのプロジェクトの一覧や詳細を記述します。</p>
+    </section>
+    <section id="contact">
+        <h2>連絡先</h2>
+        <p>連絡先情報。</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 あなたの名前</p>
+    </footer>
+</body>
+</html>
