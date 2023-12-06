@@ -1,25 +1,27 @@
-/* 基本的なリセットとフォントの設定 */
+/* 基本設定 */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
+    padding: 0;
+    background-color: #fff;
     color: #333;
-    background-color: #f4f4f4;
 }
 
 /* ヘッダーのスタイリング */
 header {
-    background-color: #444;
-    color: #f4f4f4;
+    background-color: #282a36;
+    color: #f8f8f2;
     padding: 1rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
 
-/* ナビゲーションバーのスタイリング */
+/* ナビゲーションのスタイリング */
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,17 +29,17 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #f4f4f4;
+    color: #ff79c6;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #ddd;
+    color: #bd93f9;
 }
 
 /* セクションのスタイリング */
@@ -48,8 +50,8 @@ section {
 
 /* フッターのスタイリング */
 footer {
-    background-color: #444;
-    color: #f4f4f4;
+    background-color: #282a36;
+    color: #f8f8f2;
     text-align: center;
     padding: 1rem 0;
 }
@@ -58,15 +60,15 @@ footer p {
     margin: 0;
 }
 
-/* メディアクエリー */
-@media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-        padding: 0;
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
     }
 
     nav ul li {
         display: block;
         margin: 10px 0;
+        text-align: center;
     }
 }
