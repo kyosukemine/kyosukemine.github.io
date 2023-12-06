@@ -1,73 +1,76 @@
-/* 基本的なリセットとフォントの設定 */
+/* Basic Reset and Font Settings */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #333; /* Dark grey text for contrast */
+    background-color: #fff; /* Pure white background */
+    padding: 20px 80px; /* Larger horizontal padding */
 }
 
-/* ヘッダーのスタイリング */
+/* Header Styling */
 header {
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: #f4f4f4;
-    padding: 1rem 0;
+    background-color: #fff; /* Pure white background */
+    color: #333; /* Dark grey text */
+    padding: 2rem 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 header h1 {
     margin: 0;
+    font-size: 24px;
 }
 
-/* ナビゲーションバーのスタイリング */
+/* Navigation Bar Styling */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center; /* Center align nav items */
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #f4f4f4;
+    color: #333; /* Dark grey text */
     text-decoration: none;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #ddd;
+    color: #666; /* Slightly lighter grey for hover state */
 }
 
-/* セクションのスタイリング */
+/* Section Styling */
 section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 5px;
+    padding: 40px 0; /* Larger vertical padding */
+    background-color: #fff; /* Pure white background */
 }
 
-/* フッターのスタイリング */
+/* Footer Styling */
 footer {
-    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    color: #f4f4f4;
+    background-color: #fff; /* Pure white background */
+    color: #333; /* Dark grey text */
     text-align: center;
-    padding: 1rem 0;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    padding: 2rem 0;
 }
 
 footer p {
     margin: 0;
 }
 
-/* メディアクエリー */
+/* Media Queries */
+@media (max-width: 800px) {
+    body {
+        padding: 20px 40px; /* Smaller horizontal padding for smaller screens */
+    }
+}
+
 @media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-        padding: 0;
+    body {
+        padding: 20px; /* Even smaller padding for very small screens */
     }
 
     nav ul li {
