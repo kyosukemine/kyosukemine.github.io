@@ -18,7 +18,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 /* Navigation Bar Styling */
@@ -51,15 +51,32 @@ section {
 
 /* Footer Styling */
 footer {
-    background-color: #fff; /* Pure white background */
-    color: #333; /* Dark grey text */
-    text-align: center;
-    padding: 2rem 0;
+    background-color: #fff; /* Or any color you prefer */
+    color: #333; /* Or any color you prefer */
+    text-align: left;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left, .footer-right {
+    padding: 0 15px;
 }
 
 footer p {
     margin: 0;
 }
+
+footer a {
+    text-decoration: none;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 
 /* Media Queries */
 @media (max-width: 800px) {
@@ -78,3 +95,4 @@ footer p {
         margin: 10px 0;
     }
 }
+
