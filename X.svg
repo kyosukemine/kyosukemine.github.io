@@ -6,17 +6,17 @@
 
         path {
             stroke: #000000;
-            fill: black;
+            fill: #000000;
         }
 
         @media (prefers-color-scheme: dark) {
             ellipse {
-                stroke: white;
+                stroke: #ffffff;
             }
 
             path {
-                stroke: white;
-                fill: white;
+                stroke: #ffffff;
+                fill: #ffffff;
             }
         }
     </style>
