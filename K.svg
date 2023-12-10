@@ -1,33 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="488px"
-    height="488px" viewBox="-0.5 -0.5 488 488"
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    width="488px" height="488px" viewBox="-0.5 -0.5 488 488"
     content="&lt;mxfile&gt;&lt;diagram id=&quot;WiBhJWAya96nknREC-Ra&quot; name=&quot;ページ1&quot;&gt;3VZNj5swEP01XCN/8HnsZrftpdJKObQ9uuCAuwYjx9mQ/voOwTY42ahptdVW5RLem/EMM+8REdF1O3zQrG8+qYrLiKBqiOh9RAhOcAY/I3O0DMH5xNRaVJabiY34wS2JLLsXFd8FiUYpaUQfkqXqOl6agGNaq0OYtlUy7Nqzml8Qm5LJS/azqEwzsTnJZv4jF3XjOuO0mCItc8l2kl3DKnVYUPQhomutlJnu2mHN5bg9t5fp3PsrUf9gmnfmlgP2uZ6Z3NvZ7HOZoxsWDsBeAdwdGmH4pmflGDmAtsA1ppWAMNyyXT8teysGDvXvtkLKtZJKA9epbiyxM1o9+aWlMVCSfePyTumK67PkKcLKp1qrfVedl3KrQ76uy4gIRacLIrVmlYBtnJ22c3Nt+HB1d9grAl7mquVGHyHFG9mK6G1s8WH2REzoxDULP3iSWR/WvvYsFdxYta5IjW6QrqvejXafx17IBUH7ZqWAvu/b3sLsQqd8XCQfhPkyrntF8tTiryeMYofvB6vHCRwX4JFrATNy7bgO5nXlYkdM9Ypx6xMxFzyh4xKdl5zG59XFu/tLQReCOU2XejlOc8mMeA7Lv6Sh7fCoBDT2fiEFWRVZVrgLxg7sQ4tVnOTIX3nYYKf2uuS25vKVfqENpmSukwZtEgyCodRHz8YwTNfcXHQ5udFv7DaD4jczaI7i0KBF8tsG/dfdlGACc2HvpiI0U4pWOI/naPJnZqKUBHVpjP6aX8ib+SXLA7vk2X9oF4RXRTz/KaAk0DUuwC/ktUyCX8skAOdvoSl9/qSkDz8B&lt;/diagram&gt;&lt;/mxfile&gt;">
-
-    <defs />
+    <defs>
         <style>
-            ellipse{
+            .logo ellipse {
                 stroke: #444444;
             }
-                path {
-                    stroke: #444444;
-                }
+
+            .logo path {
+                stroke: #444444;
+            }
+
             @media (prefers-color-scheme: dark) {
-                ellipse {
+                .logo ellipse {
                     stroke: #f9f9f9;
                 }
-                path {
+
+                .logo path {
                     stroke: #f9f9f9;
                 }
             }
         </style>
-    <g>
+    </defs>
 
-        <ellipse class="maru" cx="243.5" cy="243.5" rx="211.5" ry="211.5" fill="none" stroke="#ffffff" stroke-width="70"
+    <g class="logo">
+
+        <ellipse class="maru" cx="243.5" cy="243.5" rx="211.5" ry="211.5" fill="none" stroke="#ffffff" stroke-width="64"
             pointer-events="all" />
-        <path d="M 174.98 51.46 L 174.13 422.01" fill="none" stroke="#ffffff" stroke-width="70" stroke-miterlimit="10"
+        <path d="M 174.98 51.46 L 174.13 422.01" fill="none" stroke="#ffffff" stroke-width="64" stroke-miterlimit="10"
             pointer-events="stroke" />
-        <path d="M 394.09 72.18 L 214 252" fill="none" stroke="#ffffff" stroke-width="70" stroke-miterlimit="10"
+        <path d="M 394.09 72.18 L 214 252" fill="none" stroke="#ffffff" stroke-width="64" stroke-miterlimit="10"
             pointer-events="stroke" />
-        <path d="M 383.94 402.13 L 214 222" fill="none" stroke="#ffffff" stroke-width="70" stroke-miterlimit="10"
+        <path d="M 383.94 402.13 L 214 222" fill="none" stroke="#ffffff" stroke-width="64" stroke-miterlimit="10"
             pointer-events="stroke" />
     </g>
 </svg>
