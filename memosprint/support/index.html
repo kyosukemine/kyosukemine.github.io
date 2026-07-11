@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MemoSprint サポート</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f5ef;
+      --text: #23211d;
+      --muted: #69645b;
+      --panel: #fffdf7;
+      --border: #ddd7cb;
+      --link: #235e7a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11100e;
+        --text: #eee9dd;
+        --muted: #b8b0a0;
+        --panel: #1b1916;
+        --border: #343029;
+        --link: #8cc7dd;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      line-height: 1.75;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 32px 0 8px;
+    }
+    p, li {
+      color: var(--muted);
+    }
+    .lead {
+      font-size: 1.05rem;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-top: 24px;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--text);
+    }
+    a {
+      color: var(--link);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>MemoSprint サポート</h1>
+    <p class="lead">紙に書いたメモを撮影し、端末内の文字認識でテキスト化して保存する iPhone アプリです。</p>
+
+    <section class="panel">
+      <h2>困ったときに確認すること</h2>
+      <ul>
+        <li>カメラが使えない場合は、iOSの「設定」からMemoSprintのカメラ権限を許可してください。</li>
+        <li>通知や音が鳴らない場合は、通知権限、集中モード、消音モード、音量を確認してください。</li>
+        <li>文字起こし結果が読みにくい場合は、明るい場所で、紙全体が画面に大きく入るように撮影してください。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>保存場所</h2>
+      <p>標準では、MemoSprint はアプリ内のDocumentsフォルダに保存します。Files.appでは、iOSがアプリフォルダを表示する場合に「このiPhone内 &gt; MemoSprint」から確認できます。</p>
+      <p>MemoSprint は <code>Images</code>、<code>Texts</code>、<code>LLMExports</code> を作成します。</p>
+    </section>
+
+    <section>
+      <h2>データの削除</h2>
+      <p>保存済みメモはアプリ内で削除できます。Files.app上の保存ファイルを削除することもできます。</p>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p>不具合報告では、iPhoneの機種、iOSバージョン、MemoSprintのバージョン、発生した操作、可能であればスクリーンショットを添えてください。</p>
+      <p>以下のメールアドレスへ連絡してください。</p>
+      <p><a href="mailto:memosprint.support@gmail.com">memosprint.support@gmail.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
